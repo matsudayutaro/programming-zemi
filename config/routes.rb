@@ -8,4 +8,5 @@ Rails.application.routes.draw do
  # 以下のコードを追加してみましょう
  get 'hello-world' => "foo#hello"
  get  'signup' => "users#new"
+ resources :users
 end 
